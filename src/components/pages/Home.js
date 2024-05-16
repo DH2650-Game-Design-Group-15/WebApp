@@ -1,5 +1,6 @@
 import React from 'react'
 import "../Home.css"
+import Footer from '../Footer'
 
 function Home() {
   return (
@@ -21,6 +22,7 @@ function Home() {
       <div className='info-container'>
         Info about the game
       </div>
+      <Footer/>
     </>
     
   )
