@@ -1,0 +1,22 @@
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2e2e2e;
+}
+
+.team-header {
+    margin-top: 20px;
+    font-family: 'Kanit';
+    font-size: 44px;
+    color: white;
+}
+
+.team-members {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    max-width: 1400px;
+    width: 100%;
+}

@@ -2,6 +2,7 @@ import React from 'react'
 import "../Home.css"
 import Footer from '../Footer'
 import Card from '../Card'
+import Team from '../Team'
 
 function Home() {
   return (
@@ -37,6 +38,7 @@ function Home() {
           text='Another example card'
         />
       </div>
+      <Team/>
       <Footer/>
     </>
     
