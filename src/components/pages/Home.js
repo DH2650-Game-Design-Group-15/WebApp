@@ -1,6 +1,7 @@
 import React from 'react'
 import "../Home.css"
 import Footer from '../Footer'
+import Card from '../Card'
 
 function Home() {
   return (
@@ -19,8 +20,22 @@ function Home() {
           </p>
         </div>  
       </div>
-      <div className='info-container'>
-        Info about the game
+      <div className='card-container'>
+        <Card 
+          reverse={false} 
+          img='/images/EnvironmentImage.jpg' 
+          text='A showcase of the environment in the game'
+        />
+        <Card
+          reverse={true} 
+          img='/images/EnvironmentImage.jpg' 
+          text='Showcase of reverse card'
+        />
+        <Card
+          reverse={false} 
+          img='/images/EnvironmentImage.jpg' 
+          text='Another example card'
+        />
       </div>
       <Footer/>
     </>

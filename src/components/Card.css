@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card, .card-reverse {
+    display: flex;
+    background-color: #242424;
+}
+
+.card-img {
+    display: flex;
+    max-width: 600px;
+    max-height: 400px;
+}
+
+.card-img img {
+    width: 100%;
+    height: auto;
+}
+
+.card-text-container {
+    display: flex;
+    width: 600px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-text-info {
+    font-family: 'Kanit';
+    font-size: 22px;
+    color: white;
+}
+
+.card-reverse {
+    flex-direction: row-reverse;
+}
