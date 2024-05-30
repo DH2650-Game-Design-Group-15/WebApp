@@ -10,47 +10,47 @@ function Team() {
         </p>
         <div className='team-members'>
             <Member
-                src='/images/Linus.jpg'
-                name='Linus'
+                src='/images/Linus.webp'
+                name='Linus Wallin'
                 email='linuswallin@live.se'
                 contributions='
-                    Linus worked on creating the movement and combat of the AI, building the world, and creating the website for the demo.
+                    Linus worked on creating the movement, behavior and combat of the AI, world design, the questing system and creating the website for the demo.
                 '
             />
             <Member
                 src='/images/example.jpg'
-                name='Example'
+                name='Jürgen Wetzel'
                 email='example@email.com'
                 contributions='
-                    Work done on project.
-                '
-            />
-        </div>
-        <div className='team-members'>
-            <Member
-                src='/images/example.jpg'
-                name='Example'
-                email='example@email.com'
-                contributions='
-                    Work done on project.
-                '
-            />
-            <Member
-                src='/images/example.jpg'
-                name='Example'
-                email='example@email.com'
-                contributions='
-                    Work done on project.
+                    Jürgen worked on creating the inventory and the reputation system, adding the animation to the player and rewriting the movement.
                 '
             />
         </div>
         <div className='team-members'>
             <Member
                 src='/images/example.jpg'
-                name='Example'
+                name='Ilse Westra'
                 email='example@email.com'
                 contributions='
-                    Work done on project.
+                    Ilse worked on 3D modeling, main Character design and animation, and sound design.
+                '
+            />
+            <Member
+                src='/images/example.jpg'
+                name='Laicaiwei Wang'
+                email='example@email.com'
+                contributions='
+                    Laicaiwei worked on functional integration, designing and implementing UI, implementing shooting function and dialogue system.
+                '
+            />
+        </div>
+        <div className='team-members'>
+            <Member
+                src='/images/example.jpg'
+                name='Benhou Li'
+                email='example@email.com'
+                contributions='
+                    
                 '
             />
         </div>

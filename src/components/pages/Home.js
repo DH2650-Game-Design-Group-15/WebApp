@@ -3,10 +3,11 @@ import "../Home.css"
 import Footer from '../Footer'
 import Card from '../Card'
 import Team from '../Team'
+import GameInfo from '../GameInfo'
 
 function Home() {
   return (
-    <>
+    <div className='home'>
       <div className='video-container'>
         <video src='/videos/environmentvideo.webm' autoPlay muted loop/>
         <div className='video-text-container'>
@@ -21,27 +22,32 @@ function Home() {
           </p>
         </div>  
       </div>
+      <GameInfo/>
       <div className='card-container'>
         <Card 
           reverse={false} 
-          img='/images/EnvironmentImage.jpg' 
-          text='A showcase of the environment in the game'
+          img='/images/EnvironmentImage.webp' 
+          text='A Adventure That Takes Place on Planet Earth'
         />
         <Card
           reverse={true} 
-          img='/images/EnvironmentImage.jpg' 
-          text='Showcase of reverse card'
+          img='/images/NightImage.webp' 
+          text='Day and Night Cycle'
         />
         <Card
           reverse={false} 
-          img='/images/EnvironmentImage.jpg' 
-          text='Another example card'
+          img='/images/MainCharacter.webp' 
+          text='The Alien Main Character'
+        />
+        <Card
+          reverse={true}
+          img='/images/NPC.webp'
+          text='A NPC and the Base Around Which It Patrols'
         />
       </div>
       <Team/>
       <Footer/>
-    </>
-    
+    </div>
   )
 }
 
