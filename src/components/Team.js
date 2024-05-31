@@ -28,9 +28,9 @@ function Team() {
         </div>
         <div className='team-members'>
             <Member
-                src='/images/example.jpg'
+                src='/images/Ilse.webp'
                 name='Ilse Westra'
-                email='example@email.com'
+                email='westra.ic@gmail.com'
                 contributions='
                     Ilse worked on 3D modeling, main Character design and animation, and sound design.
                 '
