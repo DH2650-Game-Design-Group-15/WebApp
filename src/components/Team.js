@@ -20,7 +20,7 @@ function Team() {
             <Member
                 src='/images/example.jpg'
                 name='Jürgen Wetzel'
-                email='example@email.com'
+                email='juergen.wetzel2000@gmail.com'
                 contributions='
                     Jürgen worked on creating the inventory and the reputation system, adding the animation to the player and rewriting the movement.
                 '
@@ -36,9 +36,9 @@ function Team() {
                 '
             />
             <Member
-                src='/images/example.jpg'
+                src='/images/Laicaiwei.webp'
                 name='Laicaiwei Wang'
-                email='example@email.com'
+                email='wanglaicaiwei@outlook.com'
                 contributions='
                     Laicaiwei worked on functional integration, designing and implementing UI, implementing shooting function and dialogue system, and overseeing GDD.
                 '
@@ -48,9 +48,9 @@ function Team() {
             <Member
                 src='/images/example.jpg'
                 name='Benhou Li'
-                email='example@email.com'
+                email=''
                 contributions='
-                    
+                    Benhou worked on character control, tree harvesting and crafting system.
                 '
             />
         </div>
