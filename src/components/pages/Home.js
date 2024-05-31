@@ -38,7 +38,7 @@ function Home() {
         <Card
           reverse={false}
           img='/images/NPC.webp'
-          text='Choose How You Want to be Percieved by the Humans'
+          text='Choose How You Want to be Perceived by the Humans'
         />
       </div>
       <Gameplay/>

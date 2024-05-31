@@ -5,15 +5,15 @@ function Gameplay() {
   return (
     <div className='gameplay'>
       <p className='gameplay-header'>
-        Gamplay
+        Gameplay
       </p>
       <div className='gameplay-text-container'>
         <p className='gameplay-text'>
-            The goal of the game is to get the nessesary resources to rebuild the ship and
-            make it back to the aliens home planet. This can be done in multiple ways; either 
+            The goal of the game is to get the necessary resources to rebuild the ship and
+            make it back to the alien’s home planet. This can be done in multiple ways; either 
             you choose to cooperate with one or more human factions on Earth to get the resources,
             or you try to obtain the resources by stealing and possibly killing the humans. 
-            But remeber that all of your actions will have their consequences! Killing a human will 
+            But remember that all of your actions will have their consequences! Killing a human will 
             result in a reputation loss with the faction that the human was connected to and they might 
             become hostile. 
         </p>
