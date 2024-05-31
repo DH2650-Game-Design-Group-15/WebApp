@@ -4,6 +4,7 @@ import Footer from '../Footer'
 import Card from '../Card'
 import Team from '../Team'
 import GameInfo from '../GameInfo'
+import Gameplay from '../Gameplay'
 
 function Home() {
   return (
@@ -27,24 +28,20 @@ function Home() {
         <Card 
           reverse={false} 
           img='/images/EnvironmentImage.webp' 
-          text='A Adventure That Takes Place on Planet Earth'
+          text='Explore Planet Earth as a Stranded Alien'
         />
         <Card
           reverse={true} 
-          img='/images/NightImage.webp' 
-          text='Day and Night Cycle'
-        />
-        <Card
-          reverse={false} 
           img='/images/MainCharacter.webp' 
-          text='The Alien Main Character'
+          text='Collect Resources and Rebuild Your Ship to Make it Back to Your Home Planet'
         />
         <Card
-          reverse={true}
+          reverse={false}
           img='/images/NPC.webp'
-          text='A NPC and the Base Around Which It Patrols'
+          text='Choose How You Want to be Percieved by the Humans'
         />
       </div>
+      <Gameplay/>
       <Team/>
       <Footer/>
     </div>

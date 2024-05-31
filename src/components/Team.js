@@ -40,7 +40,7 @@ function Team() {
                 name='Laicaiwei Wang'
                 email='example@email.com'
                 contributions='
-                    Laicaiwei worked on functional integration, designing and implementing UI, implementing shooting function and dialogue system.
+                    Laicaiwei worked on functional integration, designing and implementing UI, implementing shooting function and dialogue system, and overseeing GDD.
                 '
             />
         </div>
