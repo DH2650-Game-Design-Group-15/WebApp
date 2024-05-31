@@ -10,9 +10,16 @@ function Footer() {
                 <p className='footer-download-text'>
                     Press download below to try out the demo
                 </p>
-                <Button>
-                    Download <i className='fa-solid fa-cloud-arrow-down'/>
-                </Button>
+                <a
+                    href='https://github.com/DH2650-Game-Design-Group-15/Project/releases'
+                    target='_blank'
+                    rel='noreferrer'
+                >
+                    <Button>
+                        Download <i className='fa-solid fa-cloud-arrow-down'/>
+                    </Button>
+                </a>
+                
             </div>
             
         </div>
